@@ -1,7 +1,9 @@
 import sys
 import tkinter as tk
 from math import sin,cos,tan,asin,acos,atan,log1p,log10,sqrt,pi,degrees
-def onClick(key):  
+
+
+def onClick(key):
     if key == "EXIT":
         quit()
     if key == "C":
@@ -20,6 +22,7 @@ def onClick(key):
             
     else:
         entry.insert(tk.END,key)
+
 
 root = tk.Tk()
 root.title("SOLO Q Calculator")

@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bad971d-bb7f-409b-ac73-7014eb7132f0" name="Default Changelist" comment="" />
+    <list default="true" id="4253d934-4681-4569-a74f-19b5c7ee8fc7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1g7fMjtp630G8fdDSbPibj7Vgb5" />
+  <component name="ProjectId" id="1g7gV9O99AK8l3BMHZzHb5OVs1e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,12 +36,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Learn Python" />
   </component>
-  <component name="RunManager" selected="Python.Scientific Calculator">
-    <configuration name="CoinFlip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyGames" />
+  <component name="RunManager">
+    <configuration name="Scientific Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -52,28 +51,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoinFlip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Scientific Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyGames" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Calculator" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Calculator/Scientific Calculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scientific Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,18 +63,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Scientific Calculator" />
-        <item itemvalue="Python.CoinFlip" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1bad971d-bb7f-409b-ac73-7014eb7132f0" name="Default Changelist" comment="" />
-      <created>1597470505147</created>
+      <changelist id="4253d934-4681-4569-a74f-19b5c7ee8fc7" name="Default Changelist" comment="" />
+      <created>1597471065322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597470505147</updated>
+      <updated>1597471065322</updated>
     </task>
     <servers />
   </component>
@@ -112,29 +89,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597471062572">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597471099314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597471062572" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1597471065166">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597471099314" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1597471100897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597471065166" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1597471065166">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597471100897" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1597471100897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597471065166" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1597471065166">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597471100897" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1597471100897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597471065166" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1597471065166">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597471100897" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1597471100897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597471065166" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1597471027214">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597471027214" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597471100897" />
   </component>
 </project>
