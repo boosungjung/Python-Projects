@@ -1,11 +1,32 @@
 import pyautogui as py
 import time, sys
 
-time.sleep(2)
-distance = 200
-try:
-    while distance > 0:
-        py.dragRel(-distance, 0, duration = 5)
-        distance -= 50
-except KeyboardInterrupt:
-    sys.exit()
+delay = 0.05
+
+class Click():
+
+    def __init__(self):
+        self.delay = delay
+        self.running = False
+        self.program_running = True
+
+    def start_clicking(self):
+        self.running = True
+
+    def stop_clicking(self):
+        self.running = False
+
+    def run(self):
+        while self.program_running:
+            while self.running:
+                py.click()
+                time.sleep(self.delay)
+
+
+input = Click
+
+def on_press(key):
+    if key == py.keyDown('r'):
+        input.start_clicking()
+
+
