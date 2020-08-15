@@ -32,6 +32,8 @@ while bank > 0.00:
             else:
                 print("You Lose!\n")
                 bank -= bet
+        else:
+            print(random.choice(wrong_input), "\n")
 
         if player == 't':
             if bot_choice == 2:
