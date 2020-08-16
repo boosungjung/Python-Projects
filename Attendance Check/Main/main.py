@@ -4,7 +4,7 @@ names = ['Hiro', 'Joel', 'Leslie', 'Natsuki', 'Josiah', 'Mary', 'Margaret', 'And
 current_date = date.today()
 present = []
 position = 0
-print("Enter 1 for Present and any other number for absent")
+print("Enter 1 for Present and any other number for Absent")
 try:
     for i in names:
         print(i)
@@ -18,3 +18,4 @@ try:
     cont = input("Press enter to close")
 except ValueError:
     print("Only integers allowed")
+    cont = input("Press enter to close")
