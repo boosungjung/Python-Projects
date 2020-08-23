@@ -1,19 +1,30 @@
-from pynput import mouse
-from pynput.mouse import Button, Controller
+from pymouse import PyMouseEvent
+from threading import Thread
 
 
+def __init__(self):
+    PyMouseEvent.__init__(self)
 
-def on_click(x, y, button, pressed):
-    print('{0} at {1}'.format(
-        'Pressed' if pressed else 'Released',
-        (x, y)))
-    if not pressed:
-        # Stop listener
-        return False
 
-# Collect events until released
-while True:
-    with mouse.Listener(
-            on_click=on_click) as listener:
-        listener.join()
+def print_message(self):
+    while self.do == 1:
+        print("click")
 
+
+class DetectMouseClick(PyMouseEvent):
+    def click(self, x, y, button, press):
+        if button == 1:
+            if press:
+                print("click")
+                self.do = 1
+                self.thread = Thread(target = self.print_message)
+                self.thread.start()
+            else:
+                self.do = 0
+                print("end")
+        else:
+            self.do = 0
+            self.stop()
+
+O = DetectMouseClick()
+O.run()
