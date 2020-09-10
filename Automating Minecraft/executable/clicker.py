@@ -4,7 +4,7 @@ from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
 import random
 
-cps = random.randint(13, 16)
+cps = 15
 delay = 1/cps
 button = Button.left
 start_stop_key = KeyCode(char='r')
