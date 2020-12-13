@@ -4,16 +4,16 @@ import os
 
 today = datetime.date.today()
 x = today.strftime(' (%d, %b %Y)')
-goal = 30
 
 
-class main():
+class main:
 
     def __init__(self):
-        global goal
-        size = os.path.getsize('hours.txt')
-        if size == 0:
-            goal = int(input("What is your hour goal for this month?"))
+        with open('hours.txt', 'r+') as month_goal:
+            size = os.path.getsize('hours.txt')
+            if size == 0:
+                goal_input = input("What is your hour goal for this month?")
+                month_goal.write(goal_input + "\n")
 
     def reset(self):
         print("deleting all data...")
@@ -29,13 +29,15 @@ class main():
             if input_hours < 1:
                 print('')
             else:
-                fw = f.write(string_input + x +"\n")
+                f.write(string_input + x + "\n")
 
     def calc(self):
         total = 0
-        with open('hours.txt') as c:
-            for i in c:
-                total = total + int(i[0:2])
+        with open('hours.txt', 'r') as read:
+            goal = int(read.readline())
+            for i, line in enumerate(read):
+                if i > -1:
+                    total = total + int(line[0:2])
             print("Total hours completed this month: ", total)
             print("Hours left this month: ", goal-total)
 
@@ -52,23 +54,3 @@ elif user == "0":
         u.reset()
 elif user == "2":
     u.calc()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

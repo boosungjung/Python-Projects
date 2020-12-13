@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfdcb47-b2c0-427d-8d3d-7f79f7776320" name="Default Changelist" comment="" />
+    <list default="true" id="6bfdcb47-b2c0-427d-8d3d-7f79f7776320" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/.idea/Hours Counter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/.idea/Hours Counter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/hours.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/hours.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
