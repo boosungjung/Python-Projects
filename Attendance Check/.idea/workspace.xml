@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30768e41-6d11-4359-85f0-61e3d5947bf5" name="Default Changelist" comment="" />
+    <list default="true" id="30768e41-6d11-4359-85f0-61e3d5947bf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Attendance Check.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Attendance Check.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hours Counter/hours.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Hours Counter/hours.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hours Counter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -96,35 +103,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598617706787">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598617706787" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600589921659">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600589921659" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1600586151474">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600586151474" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1600586151474">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600586151474" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1600586151474">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600586151474" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1600586151474">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600586151474" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1600568890996">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600568890996" />
   </component>
 </project>

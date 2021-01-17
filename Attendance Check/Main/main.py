@@ -1,6 +1,6 @@
 from datetime import date
 
-names = ['Hiro', 'Joel', 'Leslie', 'Natsuki', 'Josiah', 'Mary', 'Margaret', 'Andrew', 'Peng Peng', 'Hayden', 'Jessica', 'Edward Lee', 'Noelle Lee', 'Shamala', 'Reshma', 'BooSung', 'Jennifer', 'Suna', 'Koichi', 'Yuriya']
+names = ['Hiro', 'Natsuki', 'Leslie', 'Josiah', 'Mary', 'Margaret', 'Andrew', 'Peng Peng', 'Hayden', 'Jessica', 'Edward Lee', 'Noelle Lee', 'Shamala', 'Reshma', 'BooSung', 'Jennifer', 'Suna', 'Koichi', 'Yuriya']
 current_date = date.today()
 present = []
 position = 0
